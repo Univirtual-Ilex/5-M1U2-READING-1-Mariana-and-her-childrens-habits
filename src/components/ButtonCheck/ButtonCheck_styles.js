@@ -5,6 +5,7 @@ display: block;
 position: relative;
 button{
 
+    margin-top: 17.2em;
     background-color: #fff;
     font-family:${Ilex.titulos};
     font-size:1.2em;
@@ -14,7 +15,7 @@ button{
     padding:0.8em 3em ;
     border-radius: 0 0 2em 2em;
     position: absolute;
-    top:-1.3em;
+    top:-11.75em;
     right:0;
     cursor:pointer;
     box-shadow: 0 0.5em 0.5em 0 rgba(0,0,0,0.1);

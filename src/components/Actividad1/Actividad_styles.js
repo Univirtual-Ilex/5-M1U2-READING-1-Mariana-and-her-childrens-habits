@@ -53,7 +53,7 @@ h6{
     
 }
 .next{
-    margin-top: -10.4em;
+    margin-top: -18.6em;
     margin-left: 68.85em;
 }
 

@@ -15,7 +15,7 @@ li{
     margin-top: 3em;
 }
 .check{
-    margin-top: 5.8em;
+    margin-top: -2.6em;
     margin-left: 69em;
 }
 `

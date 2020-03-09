@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Container from '../Container'
 import ButtonX from '../ButtonX'
 import estilos_home from './Home_styles'
-
+import { ButtonLink } from '../ButtonX'
 
 
 const Home_base = function ({...props}) { // se le pasan las props para recibir los styled components
@@ -17,7 +17,7 @@ const Home_base = function ({...props}) { // se le pasan las props para recibir 
                             <p>
                             Read Mariana's text about her habits and identify the ones that are healthy and unhealthy. Complete the exercise using the model example.
                             <span className='negrilla'> <br/> <br/> ¡Time to practice your reading skill!</span></p>
-                            <ButtonX>Start</ButtonX>
+                            <ButtonLink to='/actividad1'>Start</ButtonLink>
                         </div>
                     </div>
                     <div className='bloque-derecho'>

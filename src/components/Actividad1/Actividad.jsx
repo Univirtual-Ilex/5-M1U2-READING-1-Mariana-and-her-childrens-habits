@@ -53,7 +53,7 @@ const Actividad_base =  ({...props}) => {
                  </p>
             </div>
            
-                <ButtonCheck className="next">Next</ButtonCheck>
+                <ButtonCheck link={'/Actividad2'} className="next" text={'Next'}></ButtonCheck>
             </IRow>
             
             

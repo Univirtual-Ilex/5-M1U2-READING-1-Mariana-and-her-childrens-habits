@@ -89,7 +89,7 @@ const Actividad2_base = ({...props}) => {
         <Container {...props} bgImage='./src/bg_actividad1.png' w={69} h={38.8}>
             <UiButtonsContainer>
                 <ButtonUi icon='ilx-ayuda' tooltip='Read the text and then answer correctly' />
-                <ButtonUi icon='ilx-volver' tooltip='Start Again' />
+                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => { window.location.reload() } } />
             </UiButtonsContainer>
 
             <div className='container-content'>
@@ -116,7 +116,7 @@ const Actividad2_base = ({...props}) => {
             </IRow>
             <ButtonCheck onClick={checkActivity} className="check" text={'CHECK'} />
             
-            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'/actividad2'} finished={ok} />
+            <Modal visible={modalFlag} ok={ok} err={err} w={25} repeatUrl={'#/actividad2'} finished={ok} />
         </Container>
 
     )

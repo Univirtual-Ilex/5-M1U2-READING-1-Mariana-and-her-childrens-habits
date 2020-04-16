@@ -27,7 +27,7 @@ const Actividad_base =  ({...props}) => {
             
             <UiButtonsContainer>
                 <ButtonUi icon='ilx-ayuda' tooltip='Read the text and then answer correctly' />
-                <ButtonUi icon='ilx-volver' tooltip='Start Again' />
+                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => { window.location.reload() } } />
             </UiButtonsContainer>
 
             <IRow pt={1.5}>

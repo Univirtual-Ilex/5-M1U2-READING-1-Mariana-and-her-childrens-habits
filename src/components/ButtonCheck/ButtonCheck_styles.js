@@ -19,6 +19,7 @@ button{
     right:0;
     cursor:pointer;
     box-shadow: 0 0.5em 0.5em 0 rgba(0,0,0,0.1);
+    text-decoration:none;
     &:hover{
         background-color: ${Ilex.violeta2};
         color:#fff;

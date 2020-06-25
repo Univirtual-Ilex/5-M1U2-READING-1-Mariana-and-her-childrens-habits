@@ -16,7 +16,7 @@ const Home_base = function ({...props}) { // se le pasan las props para recibir 
                             <h1> Mariana and her children's habits </h1>
                             <p>
                             Read Mariana's text about her habits and identify the ones that are healthy and unhealthy. Complete the exercise using the model example.
-                            <span className='negrilla'> <br/> <br/> ¡Time to practice your reading skill!</span></p>
+                            <span className='negrilla'> <br/> <br/> Time to practice your reading skill!</span></p>
                             <ButtonLink to='/actividad1'>Start</ButtonLink>
                         </div>
                     </div>
